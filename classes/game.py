@@ -1,6 +1,8 @@
 import random
 from .magic import Spell
 
+
+# Definition colors class for console
 class Colors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -12,6 +14,8 @@ class Colors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+
+# Definition class for player and enemy
 class Person:
     def __init__(self, hp, mp, atk, df, magic):
         self.maxHp = hp
